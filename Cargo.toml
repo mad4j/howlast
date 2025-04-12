@@ -1,6 +1,6 @@
 [package]
 name = "howlast"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "A procedural macro to easily misure computation times."
 authors = ["Daniele Olmisani <daniele.olmisani@gmail.com>"]
@@ -12,10 +12,4 @@ keywords = ["procedural-macro", "rust", "code-generation", "macro", "struct"]
 categories = ["development-tools"]
 readme = "README.md"
 
-[lib]
-proc-macro = true
-
 [dependencies]
-proc-macro2 = "1.0.94"
-quote = "1.0.40"
-syn = { version = "2.0.100", features = ["full"] }
