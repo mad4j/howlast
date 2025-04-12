@@ -9,7 +9,7 @@ repository = "https://github.com/mad4j/howlast"
 homepage = "https://github.com/mad4j/howlast"
 documentation = "https://docs.rs/howlast"
 keywords = ["procedural-macro", "rust", "code-generation", "macro", "struct"]
-categories = ["development-tools", "code-generation", "rust-helpers"]
+categories = ["development-tools", "macros"]
 readme = "README.md"
 
 [lib]
