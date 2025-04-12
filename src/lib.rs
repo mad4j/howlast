@@ -32,7 +32,6 @@ impl Parse for MacroArgs {
 /// ```
 /// use howlast::howlast;
 ///
-/// #[test]
 /// fn it_works() {
 ///     howlast!(step_duration,
 ///         {
