@@ -2,6 +2,15 @@
 name = "howlast"
 version = "0.1.0"
 edition = "2024"
+description = "A procedural macro to easily misure computation times."
+authors = ["Daniele Olmisani <daniele.olmisani@gmail.com>"]
+license = "GPL-3.0"
+repository = "https://github.com/mad4j/howlast"
+homepage = "https://github.com/mad4j/howlast"
+documentation = "https://docs.rs/howlast"
+keywords = ["procedural-macro", "rust", "code-generation", "macro", "struct"]
+categories = ["development-tools", "code-generation", "rust-helpers"]
+readme = "README.md"
 
 [lib]
 proc-macro = true
