@@ -18,7 +18,7 @@
 /// ```
 #[macro_export]
 macro_rules! howlast {
-    ($duration_holder:ident $(, $result:ident)? => $code_block:block) => {
+    ($duration_holder:ident $(, $result:ident)? => $code_block:expr) => {
         let $duration_holder = ::std::time::Instant::now();
         $(let $result = )?
                 $code_block;

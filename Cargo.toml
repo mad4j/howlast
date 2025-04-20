@@ -1,6 +1,6 @@
 [package]
 name = "howlast"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2024"
 description = "A procedural macro to easily misure computation times."
 authors = ["Daniele Olmisani <daniele.olmisani@gmail.com>"]
