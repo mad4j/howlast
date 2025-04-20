@@ -17,7 +17,6 @@ fn it_works() {
     });
     print!("{:?} {:?}", step_duration, result);
 
-
     howlast!(step_duration, result => 2+2);
     print!("{:?} {:?}", step_duration, result);
 }
